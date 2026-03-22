@@ -1,0 +1,15 @@
+[package]
+name = "hdf-reference"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+hdf-core = { path = "../hdf-core" }
+hdf-sync = { path = "../hdf-sync" }
+hdf-layout = { path = "../hdf-layout" }
+hdf-fault = { path = "../hdf-fault" }
+hdf-storage = { path = "../hdf-storage" }
+hdf-journal = { path = "../hdf-journal" }

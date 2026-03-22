@@ -1,0 +1,3 @@
+[workspace]
+members = ["hdf-core", "hdf-sync", "hdf-layout", "hdf-fault", "hdf-storage", "hdf-journal", "hdf-reference"]
+resolver = "2"

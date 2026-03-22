@@ -1,0 +1,7 @@
+[package]
+name = "hdf-sync"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hdf-core = { path = "../hdf-core" }

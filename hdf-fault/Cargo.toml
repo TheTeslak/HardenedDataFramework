@@ -1,0 +1,14 @@
+[package]
+name = "hdf-fault"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+hdf-core = { path = "../hdf-core" }
+
+[dev-dependencies]
+hdf-layout = { path = "../hdf-layout" }
+hdf-sync = { path = "../hdf-sync" }
